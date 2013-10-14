@@ -92,7 +92,7 @@ The current garbage collector is not as good as e.g. the Hotspot JVMs.</p>
 <p>If all those approaches do not help,
 you can use still use manual memory management.
 However, most of the standard library requires garbage collection.</p>
-<p>There is <tt class="docutils literal"><span class="pre">delete</span></tt> for manual deallocation.
+<p>There is <tt class="docutils literal"><span class="pre">destroy</span></tt> for manual deallocation.
 You could also access <tt class="docutils literal"><span class="pre">malloc</span></tt> and <tt class="docutils literal"><span class="pre">free</span></tt> from libc directly
 and thus circumvent the garbage collector.
 D provides all mechanisms for RAII like C++.</p>
@@ -172,7 +172,7 @@ However, you could implement the necessary boilerplate with structs yourself.</p
           
     <div class="footer">
         &copy; Copyright 2013, Andreas Zwinkau.
-      Last updated on 2013-10-10.
+      Last updated on 2013-10-14.
       Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
     </div>
         </div>
