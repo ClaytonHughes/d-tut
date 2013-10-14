@@ -10,14 +10,14 @@ Constness
 ---------
 
 D provides ``const`` and ``immutable`` keywords.
-While const means, I cannot change the value,
+While const means I cannot change the value,
 immutable means nobody can change the value,
 which is a stronger guarantee.
 
 You can cast immutable to const, but not in reverse.
 Also, you can cast mutable to const.
-This means functions taking const arguments,
-take mutable and immutable values.
+This means functions taking const arguments
+can also take mutable and immutable values.
 
 In contrast to C, ``const`` is transitive,
 which means anything you get out of a const is also const.
@@ -109,8 +109,8 @@ Compile Time Function Evaluation
 --------------------------------
 
 Since D allows to call certain D code at compile time,
-a library write should enable her functions for compile time evaluation.
-This often means to write code according to the functional programming paradigm.
+a library author should enable her functions for compile time evaluation.
+This often means writing code according to the functional programming paradigm.
 
 Scope Guards
 ------------

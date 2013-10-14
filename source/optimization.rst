@@ -23,7 +23,7 @@ Since not every optimization can be performed by a compiler,
 programmers often need to tune their code.
 Since guessing is very often wrong,
 profiling is necessary to find the hot spots in your code.
-Use dmds ``-profile``,
+Use dmd's ``-profile``,
 which instruments the code.
 When the executable is run, a ``trace.log`` is generated.
 It contains data somewhat similar to the following.

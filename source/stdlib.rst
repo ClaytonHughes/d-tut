@@ -1,7 +1,7 @@
 Standard Library: Short Tour
 ============================
 
-This is a brief overview over the standard library Phobos,
+This is a brief overview over the standard library, Phobos,
 so you have an idea what is available.
 
 Basics

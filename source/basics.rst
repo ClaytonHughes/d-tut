@@ -2,7 +2,7 @@ Basics
 ======
 
 You already know how to program,
-but lets cover the basics quickly.
+but let's cover the basics quickly.
 In addition comes some specific comparisons to other programming languages.
 
 Syntactically, D looks very much like C/C++/C#/Java.
@@ -17,9 +17,9 @@ D has no preprocessor,
 but equivalent meta programming mechanisms.
 
 Syntactically, most C code is actually valid D.
-It should be noted that D defines a lot of things,
+It should be noted that D defines a lot of things
 which are undefined (or architecture-, implementation-defined) in C.
-For example, integer overflows wrap around in D,
+For example, integer overflows wrap around in D
 because that is what practically every architecture today does.
 
 For Java Programmers

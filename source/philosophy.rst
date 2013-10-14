@@ -30,7 +30,7 @@ Critique
 --------
 
 Sometimes D is criticised,
-because it is not *simple* language,
+because it is not a *simple* language,
 in contrast to Go, Lisp, Javascript, or Forth.
 However, a D programmer sees no problem
 and actually likes his big toolbox.
@@ -47,7 +47,7 @@ and actually likes his big toolbox.
    differently-specialized mini-toolbox for every different task.
    -- `Nick Sabalausky <http://forum.dlang.org/thread/ha4qpi$189h$1@digitalmars.com?page=3#post-ha8e27:242af:241:40digitalmars.com>`_
 
-D targets programmers,
+D targets programmers
 who write code every day.
 Learning that big toolbox pays off quite quickly in this scenario.
 If you only occasionally write short one-off programs,

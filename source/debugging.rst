@@ -4,9 +4,9 @@ Debugging
 Compile-time Errors
 -------------------
 
-Since D is comprehensive language,
+Since D is a comprehensive language,
 you will probably run into error messages from the compiler.
-Here are some explanations about their meaning.
+Here are some explanations about their meanings.
 
 Error: T is used as a type
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -19,13 +19,13 @@ You probably must instantiate T like `T!int` to fix the error.
 Run-time Errors
 ---------------
 
-Run-time errors means that the compiled program
-does not behave like intended.
+A run-time error means that the compiled program
+does not behave as intended.
 
 Stack-traces
 ^^^^^^^^^^^^
 
-D has exceptions and you get a stack trace,
+D has exceptions and you get a stack trace
 if an exception is not caught.
 Of course, being a system language,
 you can break the type system for arbitrary effects,
@@ -37,7 +37,7 @@ Printf Debugging
 ^^^^^^^^^^^^^^^^
 
 The easiest way to debug the code
-is insert print commands everywhere.
+is to insert print commands everywhere.
 From C this is called "printf debugging",
 although it is "writeln debugging" in D.
 

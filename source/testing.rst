@@ -1,7 +1,7 @@
 Testing
 =======
 
-D provides a ``unittest`` keyword which enables you,
+D provides a ``unittest`` keyword which enables you
 to put tests right next to functions.
 
 

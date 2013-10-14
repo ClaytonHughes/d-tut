@@ -1,8 +1,8 @@
 Documentation
 =============
 
-As a programmer, you are probably used to API documentations,
-like JavaDoc or DoxyGen.
+As a programmer, you are probably used to API documentations
+like JavaDoc or Doxygen.
 The D compiler has this Ddoc functionality built in with the ``-D`` switch.
 
 Ddoc Examples

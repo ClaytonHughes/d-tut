@@ -1,7 +1,7 @@
 Memory Management
 =================
 
-D use garbage collection for heap allocated data by default.
+D uses garbage collection for heap allocated data by default.
 This provides a safe default
 and you can program without memory worries like in Java.
 
@@ -35,7 +35,7 @@ You can disable garbage collection temporarily.
     std.gc.enable()
 
 The reverse solution would be to adapt the garbage collector to the application.
-D allows to replace the garbage collector by the application
+D allows the application to replace the garbage collector
 to optimize for specific scenarios.
 The current garbage collector is not as good as e.g. the Hotspot JVMs.
 

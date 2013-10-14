@@ -7,7 +7,7 @@ let us discuss how this can be exploited with D.
 While concurrency and parallelism are
 `actually different concepts <http://stackoverflow.com/questions/1050222/concurrency-vs-parallelism-what-is-the-difference>`_,
 we will not discuss them separately,
-because programmers usually encounter them at same time anyways.
+because programmers usually encounter them at same time.
 However, this means we only provide an overview here.
 
 Threads
@@ -31,9 +31,9 @@ You can declare them global to the whole process with the ``shared`` qualifier.
 Tasks
 -----
 
-This is about the lightweight thread variant,
-which is managed by the program itself.
-It is also called user-level threads.
+This is about the lightweight thread variant
+that is managed by the program itself.
+They are also called user-level threads.
 Since the tasks are usually executed by a thread pool,
 they are run in parallel as well.
 
@@ -54,7 +54,7 @@ Specialized languages can simply start another thread,
 to compensate for the blocking.
 In D pool size maintenance must be done manually
 and is probably forgotten in most cases.
-You are fine,
+You are fine
 if you can restrict yourself to asynchronous IO.
 
 Synchronization
